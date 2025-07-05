@@ -1,0 +1,93 @@
+[
+
+    {
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+    "username": "daan",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "dries",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "jesse",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "jules",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "liam",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "manuel",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "marie",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "roland",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "sien",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "violet",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "wannes",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "yenthe",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "zeff",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "koen",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "bo",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "kato",
+    "password": "123",
+    "role": "user"
+  },
+  {
+    "username": "rune",
+    "password": "123",
+    "role": "user"
+  }
+] 
