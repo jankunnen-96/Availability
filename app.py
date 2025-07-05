@@ -49,17 +49,20 @@ def save_availability(data):
 
 # --- Authentication ---
 def login_screen(users):
-    st.title("Login")
+    st.markdown("<h1 style='text-align: center;'>🏊‍♂️ Wouterbron Planning 🏖️</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 18px;'>Duik in je planning 🫧</p>", unsafe_allow_html=True)
+    
     usernames = [u["username"] for u in users]
-    username = st.selectbox("Select your username", usernames)
-    password = st.text_input("Password", type="password")
-    if st.button("Login"):
+    username = st.selectbox("🏷️ Selecteer je gebruikersnaam", usernames)
+    password = st.text_input("🔒 Paswoord", type="password")
+
+    if st.button("💦 Login"):
         user = next((u for u in users if u["username"] == username and u["password"] == password), None)
         if user:
             st.session_state["user"] = user
             st.rerun()
         else:
-            st.error("Invalid username or password")
+            st.error("🚫 Foutieve gebruikersnaam of paswoord")
 
 # --- User Calendar ---
 def user_calendar(user, year):
